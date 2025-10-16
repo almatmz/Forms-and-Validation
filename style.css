@@ -4,12 +4,6 @@ body {
   color: #212529;
 }
 
-.text-gradient {
-  background: linear-gradient(90deg, #007bff, #00b4d8);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .section-title {
   font-size: 1.8rem;
   font-weight: 700;
@@ -46,24 +40,10 @@ body {
   border: 1px solid #ced4da;
   border-radius: 6px;
   margin-top: 4px;
-  background-color: #ffffff !important;
+  background-color: #ffffff;
   color: #212529;
   box-shadow: none;
   transition: border 0.3s, box-shadow 0.3s;
-}
-
-.basic-form input:focus,
-.basic-form textarea:focus,
-.form-control:focus {
-  border-color: #00b4d8;
-  box-shadow: 0 0 4px rgba(0, 180, 216, 0.4);
-  outline: none;
-}
-
-.basic-form label,
-.form-label {
-  font-weight: 500;
-  color: #212529;
 }
 
 .basic-form button,
@@ -106,18 +86,4 @@ body {
   height: 1.1em;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-}
-
-.form-check-input:checked {
-  background-color: #0d6efd;
-  border-color: #0d6efd;
-}
-
-.form-check-input:focus {
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
-  outline: none;
-}
-
-.form-check-input:hover {
-  border-color: #0d6efd;
 }
